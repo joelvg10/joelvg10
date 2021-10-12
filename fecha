@@ -1,0 +1,19 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+%@page import="java.text.*, java.util.*"%
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Fecha</h1>
+        <%
+        //Date d = new Date();
+        //String hoy = DateFormat.getDateInstance().format(d);
+        la fecha es : <% outprint.Date();  %>        
+
+        %>
+        Hoy es <%=hoy%>
+    </body>
+</html>
